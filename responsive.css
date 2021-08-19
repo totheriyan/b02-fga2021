@@ -1,0 +1,113 @@
+/*untuk tablet*/
+
+@media (max-width: 1000px) {
+	.container {
+		max-width: 1000px;
+		width: 100%;
+	}
+
+	.top-wrapper h3 {
+		color: white;
+	}
+
+	.header-right {
+		margin-right: 10px; 
+	}
+
+	.destinations {
+		width: 50%;
+		margin-bottom: 10%
+	}
+
+	.top-wrapper h1{
+		font-size: 32px;
+	}
+
+	.heading h1{
+		font-size: 32px;
+	}
+
+	.message {
+		width: 31.95%;
+		padding-bottom: 20px;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.footer-list {
+		width: 50%;
+		margin-bottom: 3%;	
+	}
+
+	.list-bottom {
+		font-size: 15px;
+		padding-left: 20px;
+		text-align: center;
+	}
+}
+
+/*untuk smartphones*/
+
+@media (max-width:670px) {
+	.container {
+		/*max-width: 670px;*/
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.destinations {
+		width: 100%;
+	}
+
+	.about-wrapper {
+		text-align: center;
+	}
+
+	.footer-list {
+		width: 100%;
+	}
+
+	.top-wrapper {
+		text-align: left;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+
+	.top-wrapper h1{
+		font-size: 24px;
+		line-height: 36px;
+	}
+
+	.top-wrapper h3{
+		font-size: 14px;
+		line-height: 20px;
+		color: white;
+	}
+
+	.message-wrapper {
+		padding-right: 5px;
+		padding-left: 0px;
+	}
+
+	.message {
+		display: inline-block;
+		padding-bottom: 15px;
+		/*border-right-width: 5px;*/
+		width: 100%;
+	}
+
+	.list-bottom {
+		font-size: 10px;
+		padding-left: 10px;
+		display: inline;
+		text-align: center;
+	}
+	
+}
