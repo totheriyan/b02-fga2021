@@ -1,0 +1,299 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+	clear: left;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.top-wrapper {
+	padding-top: 180px;
+	padding-bottom: 100px;
+	background-image: url(mountain.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	opacity: 0.8;
+	font-size: 45px;
+	letter-spacing: 7px;
+	margin-bottom: 15px;
+}
+
+.top-wrapper h3{
+	opacity: 0.8;
+	margin-bottom: 5px;
+	font-weight: normal;
+	color: #19222a;
+}
+
+.logo {
+	width: 84px;
+	margin-top: 15px;
+	transition: width 100ms ease-in-out;
+}
+
+.logo:hover{
+	width: 94px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	margin-top: 15px;
+	border-radius: 10px;
+	float: right;
+    text-align: center;
+    padding: 0px 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgba(224, 50, 50, 0.5)
+}
+
+.home {
+	padding: 20px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	/*background-color: rgba(255,255,255,0.3);*/
+}
+
+.home:hover {
+	background-color: rgba(255,255,255,0.6);
+}
+
+.help{
+	padding: 20px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	/*background-color: rgba(255,255,255,0.3);*/
+}
+
+.help:hover {
+	background-color: rgba(255,255,255,0.6);
+}
+
+.info {
+	padding: 20px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	/*background-color: rgba(255,255,255,0.3);*/
+}
+
+.info:hover {
+	background-color: rgba(255,255,255,0.6);
+	
+}
+.login {
+	padding: 20px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	/*background-color: rgba(255,255,255,0.3);*/
+}
+
+.login:hover {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: inline-block;
+}
+
+.menu-icon {
+  color: #19222a;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.destinations-wrapper {
+	/*height: 590px;*/
+	padding-bottom: 80px;
+	background-color:#f7f7f7;
+	text-align: center;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	/*color: #5f5d60;*/
+	/*color: #19222a;*/
+}
+
+.heading h1 {
+	font-weight: normal;
+	color: #19222a;
+}
+
+.destinations {
+	float: left;
+	width: 20%;
+}
+.destination-icon {
+	position: relative;
+}
+
+.icon {
+	transition: width 100ms ease-in-out;
+}
+
+.icon:hover {
+	width: 210px;
+}
+
+.destiation-icon h4 {
+	top: 30px;
+	width: 100%;
+	color: #7b7b7b;
+}
+
+.txt-contents {
+	width: 80%;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #7b7b7b;
+}
+
+.message-wrapper {
+	padding-bottom: 80px;
+	padding-left: 10px;
+	background-color: #19222a;
+	/*opacity: 0.3;*/
+	text-align: center;
+}
+
+.heading {
+	color: white;
+}
+
+.heading h2{
+	font-weight: normal;
+}
+
+
+.message {
+	float: left;
+	width: 32%;
+	padding-bottom: 32px;
+	margin: 5px;
+	background-color: #e03232;
+}
+
+.message-icon {
+	position: relative;
+}
+
+.message-icon img{
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+	transition: width 100ms ease-in-out;
+}
+
+.message-icon img:hover{
+	width: 75px;
+}
+
+.message-icon h4{
+	color: #212121;
+}
+
+.message p{
+	padding-left: 15px;
+	padding-right: 15px; 
+	text-align: center;
+	color: #212121;
+}
+
+.about-wrapper {
+	/*height: 200px;*/
+	/*width: 100%;*/
+	background-color:#efd163;
+	/*background-color: #ecedef;*/
+	text-align: center;
+}
+
+.footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: black;
+}
+
+.footer-title {
+	float: left;
+}
+
+.footer h2 {
+	font-weight: normal;
+}
+
+.footer-list {
+	float: left;
+	width: 20%;
+	padding-bottom: 20px;
+}
+
+.footer-list p{
+	color: black;
+	font-size: 18px;
+	font-family: Lato;
+}
+
+.footer-list img {
+	width: 25px;
+	height: 25px;
+	opacity: 0.5;
+}
+
+.footer-list img:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
+footer {
+	background-color: #886d09;
+	text-align: center;
+}
+
+.list-bottom {
+	float: left;
+	padding-left: 400px;
+}
+ 
